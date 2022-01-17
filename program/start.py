@@ -55,7 +55,7 @@ async def start_(client: Client, message: Message):
         f"""✨ **Welcome {message.from_user.mention()} !**\n
 💭 [{BOT_NAME}](https://t.me/KOT_MUSIC_PLAYER_BOT) **𝗔𝗟𝗟𝗢𝗪𝗦 𝗬𝗢𝗨𝗥 𝗧𝗢 𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖 𝗔𝗡𝗗 𝗩𝗜𝗗𝗘𝗢 𝗢𝗡 𝗚𝗥𝗢𝗨𝗣𝗦 𝗧𝗛𝗥𝗢𝗨𝗚𝗛 𝗧𝗛𝗘 𝗧𝗚 𝗩𝗜𝗗𝗘𝗢 𝗖𝗛𝗔𝗧!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **𝗙𝗜𝗡𝗗 𝗢𝗨𝗧 𝗔𝗟𝗟 𝗧𝗛𝗘 𝗕𝗢𝗧'𝗦 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗔𝗡𝗗 𝗛𝗢𝗪 𝗧𝗛𝗘𝗬 𝗪𝗢𝗥𝗞 𝗕𝗬 𝗖𝗟𝗜𝗖𝗞𝗜𝗡𝗚 𝗢𝗡 𝗧𝗛𝗘 » 📚 𝗖𝗢𝗠𝗠𝗘𝗡𝗗𝗦 𝗕𝗨𝗧𝗧𝗢𝗡!**
 
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button! : @KOT_BOTS**
 """,
@@ -69,20 +69,20 @@ async def start_(client: Client, message: Message):
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/KOT_FREE_DE_LA_HOYA_OFF"),
+                    InlineKeyboardButton("📚 𝗖𝗢𝗠𝗠𝗘𝗡𝗗𝗦", callback_data="cbcmds"),
+                    InlineKeyboardButton("❤️ 𝗗𝗢𝗡𝗔𝗧𝗘", url=f"https://t.me/KOT_FREE_DE_LA_HOYA_OFF"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 BOTS CHANNEL", url=f"https://t.me/KOT_BOTS"
+                        "👥 𝗕𝗢𝗧𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=f"https://t.me/KOT_BOTS"
                     ),
                     InlineKeyboardButton(
-                        "📣 SUPPORT GROUP", url=f"https://t.me/KOT_REPORS"
+                        "📣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣", url=f"https://t.me/KOT_REPORS"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://t.me/KOT_SOURCE_CODE"
+                        "🌐 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘", url="https://t.me/KOT_SOURCE_CODE"
                     )
                 ],
             ]
@@ -102,9 +102,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/KOT_REPORS"),
+                InlineKeyboardButton("✨ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣", url=f"https://t.me/KOT_REPORS"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/KOT_BOTS"
+                    "📣 𝗕𝗢𝗧𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=f"https://t.me/KOT_BOTS"
                 ),
             ]
         ]
