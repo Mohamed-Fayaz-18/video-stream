@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/KOT_MUSIC_PLAYER_BOT) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [{BOT_NAME}](https://t.me/KOT_MUSIC_PLAYER_BOT) **𝗔𝗟𝗟𝗢𝗪𝗦 𝗬𝗢𝗨𝗥 𝗧𝗢 𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖 𝗔𝗡𝗗 𝗩𝗜𝗗𝗘𝗢 𝗢𝗡 𝗚𝗥𝗢𝗨𝗣𝗦 𝗧𝗛𝗥𝗢𝗨𝗚𝗛 𝗧𝗛𝗘 𝗧𝗚 𝗩𝗜𝗗𝗘𝗢 𝗖𝗛𝗔𝗧!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
