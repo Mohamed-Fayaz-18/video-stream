@@ -57,7 +57,7 @@ async def start_(client: Client, message: Message):
 
 💡 **𝗙𝗜𝗡𝗗 𝗢𝗨𝗧 𝗔𝗟𝗟 𝗧𝗛𝗘 𝗕𝗢𝗧'𝗦 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗔𝗡𝗗 𝗛𝗢𝗪 𝗧𝗛𝗘𝗬 𝗪𝗢𝗥𝗞 𝗕𝗬 𝗖𝗟𝗜𝗖𝗞𝗜𝗡𝗚 𝗢𝗡 𝗧𝗛𝗘 » 📚 𝗖𝗢𝗠𝗠𝗘𝗡𝗗𝗦 𝗕𝗨𝗧𝗧𝗢𝗡!**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button! : @KOT_BOTS**
+🔖 **𝗧𝗢 𝗞𝗡𝗢𝗪 𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧, 𝗣𝗟𝗘𝗔𝗦𝗘 𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗧𝗛𝗘  » ❓ 𝗕𝗔𝗦𝗜𝗖 𝗚𝗨𝗜𝗗𝗘 𝗕𝗨𝗧𝗧𝗢𝗡! | 𝗕𝗢𝗧 𝗠𝗔𝗧𝗜𝗔𝗡𝗘𝗗/𝗖𝗥𝗘𝗔𝗧𝗘𝗥 𝗕�: @KOT_BOTS**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -67,7 +67,7 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/KOT_MUSIC_PLAYER_BOT?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❓ 𝗕𝗔𝗦𝗜𝗖 𝗚𝗨𝗜𝗗𝗘", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 𝗖𝗢𝗠𝗠𝗘𝗡𝗗𝗦", callback_data="cbcmds"),
                     InlineKeyboardButton("❤️ 𝗗𝗢𝗡𝗔𝗧𝗘", url=f"https://t.me/KOT_FREE_DE_LA_HOYA_OFF"),
