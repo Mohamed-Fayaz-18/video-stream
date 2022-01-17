@@ -53,7 +53,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/KOT_RADIO_PLAYER_X_BOT) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [{BOT_NAME}](https://t.me/KOT_MUSIC_PLAYER_BOT) **Allows you to play music and video on groups through the new Telegram's video chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
@@ -74,10 +74,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/KOT_REPORS"
+                        "👥 BOTS CHANNEL", url=f"https://t.me/KOT_BOTS"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/KING_OF_THE_CARTOONS_CHANNEL"
+                        "📣 SUPPORT GROUP", url=f"https://t.me/KOT_REPORS"
                     ),
                 ],
                 [
