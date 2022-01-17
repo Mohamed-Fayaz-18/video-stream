@@ -63,8 +63,8 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/KOT_RADIO_PLAYER_X_BOT?startgroup=true",
+                        "➕ 𝗔𝗗𝗗 𝗠𝗘𝗛 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣➕",
+                        url=f"https://t.me/KOT_MUSIC_PLAYER_BOT?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
